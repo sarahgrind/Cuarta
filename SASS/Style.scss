@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+div.imagLogo {
+    img {
+        width: 220px;
+    }
+}
+
+div.dropdown-menu {
+    font-family:'Poiret One', cursive;
+}
+
+nav {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: x-large;
+    font-family:'Poiret One', cursive;
+    display: flex;
+    align-items: center;
+}
+
+
+section {
+    background-color: #fff;
+    height: 800px;
+    background-image: url(/Multimedia/Amaranto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 340px;
+
+    div.tituloBanner {
+        text-align: center;
+        color: #fff;
+        font-family:'Poiret One', cursive;
+    }
+
+    h1{
+        font-size: 80px;
+    }
+}
+
+
+div.container {
+    margin-top: 200px;
+}
+
+div.col1 {
+    width: 500px;
+    height: 600px;
+    font-size: x-large;
+    color: #000;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-image: url(/Multimedia/barra_amaranto.jpeg);
+}
+
+div.col2 {
+    width: 500px;
+    height: 600px;
+    font-size: x-large;
+    color: #000;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-image: url(/Multimedia/barra_amaranto.jpeg);
+}
+
+div.col3 {
+    width: 333.33px;
+    height: 330px;
+    font-size: x-large;
+    color: #000;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-image: url(/Multimedia/galleta_chispas1.jpeg);
+}
+
+div.col4 {
+    width: 333.33px;
+    height: 330px;
+    font-size: x-large;
+    color: #000;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-image: url(/Multimedia/galleta_chispas1.jpeg);
+}
+
+div.col5 {
+    width: 333.33px;
+    height: 330px;
+    font-size: x-large;
+    color: #000;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-image: url(/Multimedia/galleta_chispas1.jpeg);
+}
