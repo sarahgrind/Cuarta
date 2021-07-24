@@ -15,17 +15,18 @@ div.dropdown-menu {
 
 nav {
     text-decoration: none;
-    color: #fff;
+    color: $colorFondo;
     font-weight: normal;
     font-size: x-large;
     font-family: $fontTittle;
     display: flex;
     align-items: center;
+    height: $altoNav;
 }
 
 
 section {
-    background-color: #fff;
+    background-color: $colorFondo;
     height: 800px;
     background-image: url(/Munpala_Amaranto/Multimedia/Amaranto.jpg);
     background-size: cover;
@@ -35,7 +36,7 @@ section {
 
     div.tituloBanner {
         text-align: center;
-        color: #fff;
+        color: $colorFondo;
         font-family: $fontTittle;
     }
 
@@ -45,17 +46,49 @@ section {
 }
 
 
+div#intro{
+    background-color: $colorFondo;
+    height: 250px;
+    
+
+    .introTitulo{
+        color: $colorPrincipal;
+        font-weight: normal;
+        font-size: 50px;
+        text-align: center;
+        padding: 20px;
+        padding-top: 50px;
+        font-family:$fontTittle
+    }
+
+    .introTexto{
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        padding: 20px;
+        font-family: $fuenteContenido;
+        color: $colorcontenido;
+    }
+
+}
+
+
+
+
+
+
+
 div.container_1 {
-    margin-top: 150px;
 
     div.col-lg-5 {
         background-image: url(/Munpala_Amaranto/Multimedia/barra_amaranto_01.jpg);
         height: 600px;
         font-family:$fuenteContenido;
         font-size: large;
-        color:white;
+        color: $colorFondo;
 
-        button.btn{
+        button.btn {
             padding-left: 70px; 
             padding-right: 70px;
             margin-top: 50px;
@@ -121,8 +154,179 @@ div.container_2{
     }
 }
 
+div#nuestraHistoria {
+
+    h2 {
+    margin-top: 50px;
+    margin-bottom: 130px;
+    text-align: center;
+    font-size: 50px;
+    font-family: $fontTittle;
+    color: $colorPrincipal;
+    }
 
 
+div.container_3 {
+
+ color: $colorFondo;
+ height: 600px;
+ 
+}
+
+
+    div.col-lg-5 {
+        padding-left: 120px;
+        display: flex;
+    
+        iframe{
+            width: 100%;
+            height:450px;
+        }
+       
+    }
+
+    div.col-lg-7 {
+        text-align: justify;
+        padding-right: 30px;
+        color: $colorcontenido;
+        font-family: $fuenteContenido;
+
+    
+    }
+    @media screen and (max-width: 1424px) {
+        div.container_3 {
+            height: 900px;
+        }
+
+    @media screen and (max-width: 919px) {
+         div.container_3 {
+            height: 1400px;
+         }
+    }
+
+    @media screen and (max-width: 292px) {
+        div.container_3 {
+           height: 5000px;
+        }
+   }
+
+}
+
+}
+
+div{
+    &.container_4{
+        height: 300px*2;
+        background-color: $colorPrincipal
+    }
+
+    
+}
+
+div.container_4{
+
+    div.col-lg-4
+    {
+        iframe 
+        {
+            padding-top: 100px;
+            width: 100%;
+            padding-left: 15px;
+         }
+
+
+     
+
+
+    }
+
+
+    div.col-lg-2{
+    margin-right: -130px;
+    width: 100%;
+
+        .alfiler {
+        color:$colorFondo;
+        font-family: $fuenteContenido;
+            img{
+                width: $iconowidth;
+                height: $iconoHeight;
+                padding-bottom: $iconoPaddingbottom;
+                margin-top: $iconoMargintop;
+            }
+        }
+    
+
+        .email {
+            color:$colorFondo;
+            font-family: $fuenteContenido;
+                img{
+                    width: $iconowidth;
+                    height: $iconoHeight;
+                    padding-bottom: $iconoPaddingbottom;
+                    margin-top: $iconoMargintop;
+                }
+            }
+    
+
+        .telefono {
+            color:$colorFondo;
+            font-family: $fuenteContenido;
+                img{
+                    width: $iconowidth;
+                    height: $iconoHeight;
+                    padding-bottom: $iconoPaddingbottom;
+                    margin-top: $iconoMargintop;
+            }
+        }
+
+         div.redesSoc{
+            color:$colorFondo;
+            font-family: $fuenteContenido;
+            font-size: x-large;
+            margin-top: 40px;
+            div.facebook
+                img{
+                    width: 50px;
+                    height: 50px;
+                    padding-bottom: $iconoPaddingbottom;
+                    margin-top: 10px;
+            }
+        }
+    
+        div.redesSoc{
+            div.instagram
+                img{
+                    width: 50px;
+                    height: 50px;
+                    padding-bottom: $iconoPaddingbottom;
+                    margin-top: 10px;
+            }
+    }   }
+     
+
+    div.col-lg-6{ 
+       form.formInicio {
+        padding-top: 100px;
+        margin-left: 200px;
+        margin-right: 50px;
+       }
+    }
+
+
+
+}
+    
+
+@media screen and (max-width: 1000px) {
+    div.container_4 {
+        background-color: $colorPrincipal;
+        height: 2000px;
+}
+    
+}
+
+  
 
 
 
