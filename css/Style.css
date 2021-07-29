@@ -24,7 +24,7 @@ nav {
 section {
   background-color: #fff;
   height: 800px;
-  background-image: url(/Munpala_Amaranto/Multimedia/Amaranto.jpg);
+  background-image: url(../Multimedia/Amaranto.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@ div#intro .introTexto {
 }
 
 div.container_1 div.col-lg-5 {
-  background-image: url(/Munpala_Amaranto/Multimedia/barra_amaranto_01.jpg);
+  background-image: url(../Multimedia/barra_amaranto_01.jpg);
   height: 600px;
   font-family: "Poppins", sans-serif;
   font-size: large;
@@ -82,7 +82,7 @@ div.container_1 div.col-lg-5 button.btn {
 }
 
 div.container_1 div.col-lg-4 {
-  background-image: url(/Munpala_Amaranto/Multimedia/alegrias_dechocolate_01.jpg);
+  background-image: url(../Multimedia/alegrias_dechocolate_01.jpg);
   height: 600px;
 }
 
@@ -94,7 +94,7 @@ div.container_1 div.col-lg-4 button.btn {
 }
 
 div.container_1 div.col-lg-3 {
-  background-image: url(/Munpala_Amaranto/Multimedia/alegria_sabores_01.jpg);
+  background-image: url(../Multimedia/alegria_sabores_01.jpg);
   height: 600px;
 }
 
@@ -106,7 +106,7 @@ div.container_1 div.col-lg-3 button.btn {
 }
 
 div.container_2 div.col-lg-5 {
-  background-image: url(/Munpala_Amaranto/Multimedia/churritos_01.jpg);
+  background-image: url(../Multimedia/barra_amaranto_01.jpg);
   height: 600px;
 }
 
@@ -118,7 +118,7 @@ div.container_2 div.col-lg-5 button.btn {
 }
 
 div.container_2 div.col-lg-4 {
-  background-image: url(/Munpala_Amaranto/Multimedia/pepitoria_01.jpg);
+  background-image: url(../Multimedia/pepitoria_01.jpg);
   height: 600px;
 }
 
@@ -130,7 +130,7 @@ div.container_2 div.col-lg-4 button.btn {
 }
 
 div.container_2 div.col-lg-3 {
-  background-image: url(/Munpala_Amaranto/Multimedia/botana_arandano_01.jpg);
+  background-image: url(../Multimedia/botana_arandano_01.jpg);
   height: 600px;
 }
 
