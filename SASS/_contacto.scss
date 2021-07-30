@@ -22,6 +22,11 @@ nav {
     height: $altoNav;
 }
 
+div.collapse {
+    background-color: $colorPrincipal;
+    z-index: 100;
+}
+
 div.cta {
     padding-top: 120px;
     font-size: 50px;

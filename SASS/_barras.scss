@@ -23,6 +23,11 @@ nav {
     height: $altoNav;
 }
 
+div.collapse {
+    background-color: $colorPrincipal;
+    z-index: 100;
+}
+
 div.titulo {
     margin-top: 50px;
     h1{
