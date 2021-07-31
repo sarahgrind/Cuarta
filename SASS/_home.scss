@@ -1,27 +1,35 @@
 
 
-div.imagLogo {
-    img {
-        width: 200px;
+.headerHome{
+
+    div.imagLogo {
+        img {
+            width: 200px;
+        }
     }
+
+    nav {
+        text-decoration: none;
+        color: $colorFondo;
+        font-weight: normal;
+        font-size: x-large;
+        font-family: $fontTittle;
+        display: flex;
+        align-items: center;
+        height: $altoNav;
+        div.collapse {
+            background-color: $colorPrincipal;
+            z-index: 100;
+        }
+    }
+
+    div.dropdown-menu {
+        font-family: $fontTittle;
+    }
+
 }
 
 
-
-div.dropdown-menu {
-    font-family: $fontTittle;
-}
-
-nav {
-    text-decoration: none;
-    color: $colorFondo;
-    font-weight: normal;
-    font-size: x-large;
-    font-family: $fontTittle;
-    display: flex;
-    align-items: center;
-    height: $altoNav;
-}
 
 
 section {
@@ -41,6 +49,7 @@ section {
 
     h1{
         font-size: 80px;
+        color: $colorFondo;
     }
 }
 
@@ -67,7 +76,7 @@ div#intro{
         text-align: center;
         padding: 20px;
         font-family: $fuenteContenido;
-        color: $colorcontenido;
+        color: $fuenteColor02;
     }
 
 }
@@ -85,7 +94,6 @@ div.container_1 {
         height: 600px;
         font-family:$fuenteContenido;
         font-size: large;
-        color: $colorFondo;
 
         button.btn {
             padding-left: 70px; 
@@ -187,7 +195,7 @@ div.container_3 {
     div.col-lg-7 {
         text-align: justify;
         padding-right: 30px;
-        color: $colorcontenido;
+        color: $fuenteColor02;
         font-family: $fuenteContenido;
 
     
@@ -213,50 +221,35 @@ div.container_3 {
 
 }
 
-div{
-    &.container_4{
-        height: 300px*2;
-        background-color: $colorPrincipal
-    }
-
+.footerHome {
+    div.container_4{
+        background-color:$colorPrincipal;
     
-}
-
-div.container_4{
-
-    div.col-lg-4
-    {
-        iframe 
-        {
-            padding-top: 100px;
-            width: 100%;
-            padding-left: 15px;
-         }
-
-
-     
-
-
-    }
-
-
-    div.col-lg-2{
-    margin-right: -130px;
-    width: 100%;
-
-        .alfiler {
-        color:$colorFondo;
-        font-family: $fuenteContenido;
-            img{
-                width: $iconowidth;
-                height: $iconoHeight;
-                padding-bottom: $iconoPaddingbottom;
-                margin-top: $iconoMargintop;
-            }
+        &.container_4{
+            height: 300px*2;
         }
     
-
-        .email {
+        div.col-lg-4
+        {
+            iframe 
+            {
+                padding-top: 100px;
+                width: 100%;
+                padding-left: 15px;
+             }
+    
+    
+         
+    
+    
+        }
+    
+    
+        div.col-lg-2{
+        margin-right: -130px;
+        width: 100%;
+    
+            .alfiler {
             color:$colorFondo;
             font-family: $fuenteContenido;
                 img{
@@ -266,66 +259,78 @@ div.container_4{
                     margin-top: $iconoMargintop;
                 }
             }
+        
     
-
-        .telefono {
-            color:$colorFondo;
-            font-family: $fuenteContenido;
-                img{
-                    width: $iconowidth;
-                    height: $iconoHeight;
-                    padding-bottom: $iconoPaddingbottom;
-                    margin-top: $iconoMargintop;
+            .email {
+                color:$colorFondo;
+                font-family: $fuenteContenido;
+                    img{
+                        width: $iconowidth;
+                        height: $iconoHeight;
+                        padding-bottom: $iconoPaddingbottom;
+                        margin-top: $iconoMargintop;
+                    }
+                }
+        
+    
+            .telefono {
+                color:$colorFondo;
+                font-family: $fuenteContenido;
+                    img{
+                        width: $iconowidth;
+                        height: $iconoHeight;
+                        padding-bottom: $iconoPaddingbottom;
+                        margin-top: $iconoMargintop;
+                }
             }
-        }
-
-         div.redesSoc{
-            color:$colorFondo;
-            font-family: $fuenteContenido;
-            font-size: x-large;
-            margin-top: 40px;
-            div.facebook
-                img{
-                    width: 50px;
-                    height: 50px;
-                    padding-bottom: $iconoPaddingbottom;
-                    margin-top: 10px;
+    
+             div.redesSoc{
+                color:$colorFondo;
+                font-family: $fuenteContenido;
+                font-size: x-large;
+                margin-top: 40px;
+                div.facebook
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        padding-bottom: $iconoPaddingbottom;
+                        margin-top: 10px;
+                }
             }
+        
+            div.redesSoc{
+                div.instagram
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        padding-bottom: $iconoPaddingbottom;
+                        margin-top: 10px;
+                }
+        }   }
+         
+    
+        div.col-lg-6{ 
+           form.formInicio {
+            padding-top: 100px;
+            margin-left: 200px;
+            margin-right: 50px;
+           }
         }
     
-        div.redesSoc{
-            div.instagram
-                img{
-                    width: 50px;
-                    height: 50px;
-                    padding-bottom: $iconoPaddingbottom;
-                    margin-top: 10px;
-            }
-    }   }
-     
-
-    div.col-lg-6{ 
-       form.formInicio {
-        padding-top: 100px;
-        margin-left: 200px;
-        margin-right: 50px;
-       }
+    
     }
-
-
-
-}
     
+
+    
+}
 
 @media screen and (max-width: 1000px) {
-    div.container_4 {
+    .footerHome {
         background-color: $colorPrincipal;
         height: 2000px;
 }
     
 }
-
-  
 
 
 
