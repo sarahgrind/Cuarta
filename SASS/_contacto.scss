@@ -1,33 +1,43 @@
 
-div.imagLogo {
-    img {
-        width: 200px;
+.headerContacto{
+
+    div.imagLogo {
+        img {
+            width: 200px;
+        }
     }
+
+    nav {
+        text-decoration: none;
+        color: $colorFondo;
+        font-weight: normal;
+        font-size: x-large;
+        font-family: $fontTittle;
+        display: flex;
+        align-items: center;
+        height: $altoNav;
+        div.collapse {
+            background-color: $colorPrincipal;
+            z-index: 100;
+        }
+    }
+
+    div.dropdown-menu {
+        font-family: $fontTittle;
+    }
+
+
+    div.collapse {
+        background-color: $colorPrincipal;
+        z-index: 100;
+    }
+
 }
 
 
 
-div.dropdown-menu {
-    font-family: $fontTittle;
-}
 
-nav {
-    text-decoration: none;
-    color: $colorFondo;
-    font-weight: normal;
-    font-size: x-large;
-    font-family: $fontTittle;
-    display: flex;
-    align-items: center;
-    height: $altoNav;
-}
-
-div.collapse {
-    background-color: $colorPrincipal;
-    z-index: 100;
-}
-
-div.cta {
+div.ctaContacto {
     padding-top: 120px;
     font-size: 50px;
     font-family: $fontTittle;
@@ -35,7 +45,7 @@ div.cta {
     text-align: center;
 }
 
-div.cta1 {
+div.cta1Contacto {
     padding-top: 40px;
     font-size: 50px;
     font-family: $fontTittle;
@@ -43,26 +53,32 @@ div.cta1 {
     text-align: center;
 }
 
-div.form-group {
-    padding-left: 30%;
-    padding-right: 30%; 
-    font-family: $fuenteContenido;
-}
+.formContacto{
+    margin-bottom: 100px;
+
+    div.form-group {
+        padding-left: 30%;
+        padding-right: 30%; 
+        font-family: $fuenteContenido;
+    }
 
 
-   .botonT {
-       background: $fuenteColor;
-       margin-left: 50%;
-       margin-right: 50%;
-       margin-bottom: 20px;
-       width: 100px;
-       transition: width 2s;
-       font-family: $fuenteContenido;
-       color: $colorFondo;
-   }
+    .rainbow{
+        background-color: $colorBoton;
+        border-radius: 4px;  
+        color: #fff;
+        cursor: pointer;
+        padding: 8px 16px;
+        margin-left: 50%;
+        margin-right: 40%;
+        font-family: $fuenteContenido;
+      }
 
-   .botonT:hover{
-    width: 200px;
+     .rainbowContacto:hover{
+        background-image: linear-gradient(90deg, #fa8fb1 0%, #f74780 49%, #ffc1d5 80%, #fc6998 100%);
+        animation: slidebg 1s linear infinite;
+        }
+        
 }
 
 
@@ -75,41 +91,35 @@ div{
     
 }
 
-div.container_4{
-
-    div.col-lg-4
-    {
-        iframe 
-        {
-            padding-top: 100px;
-            width: 100%;
-            padding-left: 15px;
-         }
-
-
-     
-
-
-    }
-
-
-    div.col-lg-2{
-    margin-right: -130px;
-    width: 100%;
-
-        .alfiler {
-        color:$colorFondo;
-        font-family: $fuenteContenido;
-            img{
-                width: $iconowidth;
-                height: $iconoHeight;
-                padding-bottom: $iconoPaddingbottom;
-                margin-top: $iconoMargintop;
-            }
+.footerContacto {
+    div.container_4{
+        background-color:$colorPrincipal;
+    
+        &.container_4{
+            height: 300px*2;
         }
     
-
-        .email {
+        div.col-lg-6
+        {
+            iframe 
+            {
+                padding-top: 100px;
+                width: 100%;
+                padding-left: 15px;
+             }
+    
+    
+         
+    
+    
+        }
+    
+    
+        div.col-lg-5{
+        margin-left: 100px;
+        width: 100%;
+    
+            .alfiler {
             color:$colorFondo;
             font-family: $fuenteContenido;
                 img{
@@ -119,63 +129,95 @@ div.container_4{
                     margin-top: $iconoMargintop;
                 }
             }
+        
     
-
-        .telefono {
-            color:$colorFondo;
-            font-family: $fuenteContenido;
-                img{
-                    width: $iconowidth;
-                    height: $iconoHeight;
-                    padding-bottom: $iconoPaddingbottom;
-                    margin-top: $iconoMargintop;
-            }
-        }
-
-         div.redesSoc{
-            color:$colorFondo;
-            font-family: $fuenteContenido;
-            font-size: x-large;
-            margin-top: 40px;
-            div.facebook
-                img{
-                    width: 50px;
-                    height: 50px;
-                    padding-bottom: $iconoPaddingbottom;
-                    margin-top: 10px;
-            }
-        }
+            .email {
+                color:$colorFondo;
+                font-family: $fuenteContenido;
+                    img{
+                        width: $iconowidth;
+                        height: $iconoHeight;
+                        padding-bottom: $iconoPaddingbottom;
+                        margin-top: $iconoMargintop;
+                    }
+                }
+        
     
-        div.redesSoc{
-            div.instagram
-                img{
-                    width: 50px;
-                    height: 50px;
-                    padding-bottom: $iconoPaddingbottom;
-                    margin-top: 10px;
+            .telefono {
+                color:$colorFondo;
+                font-family: $fuenteContenido;
+                    img{
+                        width: $iconowidth;
+                        height: $iconoHeight;
+                        padding-bottom: $iconoPaddingbottom;
+                        margin-top: $iconoMargintop;
+                    }
             }
-    }   }
-     
-
-    div.col-lg-6{ 
-       form.formInicio {
-        padding-top: 100px;
-        margin-left: 200px;
-        margin-right: 50px;
-       }
+    
+             div.redesSoc{
+                color:$colorFondo;
+                font-family: $fuenteContenido;
+                font-size: large;
+                margin-top: 40px;
+                div.facebook
+                    img{
+                        width: 30px;
+                        height: 35px;
+                        padding-bottom: $iconoPaddingbottom;
+                        margin-top: 10px;
+                    }
+            }
+        
+            div.redesSoc{
+                div.instagram
+                    img{
+                        width: 30px;
+                        height: 35px;
+                        padding-bottom: $iconoPaddingbottom;
+                        margin-top: 10px;
+                }
+          }
+         
+    
+        }  
+    
+    
     }
-
-
-
-}
     
 
-@media screen and (max-width: 1000px) {
-    div.container_4 {
-        background-color: $colorPrincipal;
-        height: 2000px;
-}
     
 }
 
-  
+@media screen and (max-width: 1478px) {
+    .footerContacto {
+        background-color:$colorPrincipal;
+        height: 700px;
+        width: 100%;
+        text-align: center;
+        form.formInicio {
+            margin-left: 50%;
+            margin-right: 50%;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1078px) {
+    .footerContacto {
+        background-color:$colorPrincipal;
+        height: 1200px;
+        width: 100%;
+        text-align: center;
+        form.formInicio {
+            margin-left: 50%;
+            margin-right: 50%;
+        }
+    }
+    
+}
+
+
+
+
+
+

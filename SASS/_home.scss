@@ -222,13 +222,19 @@ div.container_3 {
 }
 
 .footerHome {
-    div.container_4{
-        background-color:$colorPrincipal;
-    
+
+
+    div{
         &.container_4{
             height: 300px*2;
+            background-color: $colorPrincipal;
         }
-    
+
+        
+    }
+
+    div.container_4{
+
         div.col-lg-4
         {
             iframe 
@@ -236,21 +242,21 @@ div.container_3 {
                 padding-top: 100px;
                 width: 100%;
                 padding-left: 15px;
-             }
-    
-    
-         
-    
-    
+            }
+
+
+        
+
+
         }
-    
-    
+
+
         div.col-lg-2{
         margin-right: -130px;
         width: 100%;
-    
+
             .alfiler {
-            color:$colorFondo;
+            color:$fuenteColor02;
             font-family: $fuenteContenido;
                 img{
                     width: $iconowidth;
@@ -260,9 +266,9 @@ div.container_3 {
                 }
             }
         
-    
+
             .email {
-                color:$colorFondo;
+                color:$fuenteColor02;
                 font-family: $fuenteContenido;
                     img{
                         width: $iconowidth;
@@ -272,9 +278,9 @@ div.container_3 {
                     }
                 }
         
-    
+
             .telefono {
-                color:$colorFondo;
+                color:$fuenteColor02;
                 font-family: $fuenteContenido;
                     img{
                         width: $iconowidth;
@@ -283,16 +289,16 @@ div.container_3 {
                         margin-top: $iconoMargintop;
                 }
             }
-    
-             div.redesSoc{
-                color:$colorFondo;
+
+            div.redesSoc{
+                color:$fuenteColor02;
                 font-family: $fuenteContenido;
-                font-size: x-large;
+                font-size: large;
                 margin-top: 40px;
                 div.facebook
                     img{
-                        width: 50px;
-                        height: 50px;
+                        width: 30px;
+                        height: 35px;
                         padding-bottom: $iconoPaddingbottom;
                         margin-top: 10px;
                 }
@@ -301,39 +307,86 @@ div.container_3 {
             div.redesSoc{
                 div.instagram
                     img{
-                        width: 50px;
-                        height: 50px;
+                        width: 30px;
+                        height: 35px;
                         padding-bottom: $iconoPaddingbottom;
                         margin-top: 10px;
                 }
         }   }
-         
-    
+        
+
         div.col-lg-6{ 
-           form.formInicio {
-            padding-top: 100px;
-            margin-left: 200px;
-            margin-right: 50px;
-           }
+           
+            form.formInicio {
+                padding-top: 100px;
+                margin-left: 200px;
+                margin-right: 50px;
+    
+    
+                .rainbow{
+                    background-color: $colorBoton;
+                    border-radius: 4px;  
+                    color: #fff;
+                    cursor: pointer;
+                    padding: 8px 16px;
+                    margin-left: 50%;
+                    margin-right: 40%;
+                  }
+    
+    
+                .rainbowFormHome:hover{
+                    background-image: linear-gradient(
+                       to right, 
+                       #d15771,
+                       #fabbbc, 
+                       #cc7c7d,
+                       #d85e83,
+                       #f8d5d5,
+                       #d85e83
+                     );
+                     animation:slidebg 1s linear infinite;
+                 }
+    
+                 
+            }
+    
+            }
+        
+
+
+
+    }
+        
+
+
+
+} 
+
+
+@media screen and (max-width: 1478px) {
+    .footerHome {
+        background-color:$colorPrincipal;
+        height: 700px;
+        width: 100%;
+        text-align: center;
+        form.formInicio {
+            margin-left: 50%;
+            margin-right: 50%;
         }
-    
-    
     }
     
-
-    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1078px) {
     .footerHome {
-        background-color: $colorPrincipal;
-        height: 2000px;
-}
+        background-color:$colorPrincipal;
+        height: 1700px;
+        width: 100%;
+        text-align: center;
+        form.formInicio {
+            margin-left: 50%;
+            margin-right: 50%;
+        }
+    }
     
 }
-
-
-
-
-
-

@@ -106,7 +106,8 @@ div.container-fluid{
 
 }
 
-div.container-fluid_02{
+
+div.container02{
 
     .col-md-5{
         img{
@@ -130,7 +131,6 @@ div.container-fluid_02{
      }
 
 }
-
 
 div.container_02 {
     padding-bottom: 50px;
@@ -280,12 +280,12 @@ div.cta1Delicias {
             div.redesSoc{
                 color:$fuenteColor02;
                 font-family: $fuenteContenido;
-                font-size: x-large;
+                font-size: large;
                 margin-top: 40px;
                 div.facebook
                     img{
-                        width: 50px;
-                        height: 50px;
+                        width: 30px;
+                        height: 35px;
                         padding-bottom: $iconoPaddingbottom;
                         margin-top: 10px;
                 }
@@ -294,8 +294,8 @@ div.cta1Delicias {
             div.redesSoc{
                 div.instagram
                     img{
-                        width: 50px;
-                        height: 50px;
+                        width: 30px;
+                        height: 35px;
                         padding-bottom: $iconoPaddingbottom;
                         margin-top: 10px;
                 }
