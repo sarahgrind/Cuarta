@@ -32,7 +32,7 @@
 
 
 
-section {
+section#banner {
     background-color: $colorFondo;
     height: 800px;
     background-image: url(../Multimedia/Amaranto.jpg);
@@ -85,8 +85,6 @@ div#intro{
 
 
 
-
-
 div.container_1 {
 
     div.col-lg-5 {
@@ -95,34 +93,124 @@ div.container_1 {
         font-family:$fuenteContenido;
         font-size: large;
 
-        button.btn {
-            padding-left: 70px; 
-            padding-right: 70px;
+
+       
+        .pulse:hover,
+        .pulse:focus {
+        -webkit-animation: pulse 1s;
+                animation: pulse 1s;
+        box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+        }
+
+        @-webkit-keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+
+        @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+        .pulse {
+            display: inline-flex;
             margin-top: 50px;
             margin-left: 30px;
+            --color: #1bb2d8;
+            --hover: #1b7f9e;
+            color: $colorSecundario;
+            background-color: #1bb2d8;
+            padding-left: 70px; 
+            padding-right: 70px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-decoration: none; 
+         
         }
+            
+            
+        
     }
 
 
     div.col-lg-4 {
         background-image: url(../Multimedia/alegrias_dechocolate_01.jpg);
         height: 600px;
-        button.btn{
-            padding-left: 70px; 
-            padding-right: 70px;
+        font-family:$fuenteContenido;
+        font-size: large;
+
+        .pulse02:hover,
+        .pulse02:focus {
+        -webkit-animation: pulse02 1s;
+                animation: pulse02 1s;
+        box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+        }
+
+        @-webkit-keyframes pulse02 {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+
+        @keyframes pulse02 {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+        .pulse02 {
+            display: inline-flex;
             margin-top: 50px;
             margin-left: 30px;
+            --color: #1bb2d8;
+            --hover: #1b7f9e;
+            color: $colorSecundario;
+            background-color: #1bb2d8;
+            padding-left: 70px; 
+            padding-right: 70px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-decoration: none; 
         }
 
     }
     div.col-lg-3 {
         background-image: url(../Multimedia/alegria_sabores_01.jpg);
         height: 600px;
-        button.btn{
-            padding-left: 70px; 
-            padding-right: 70px;
+        font-family:$fuenteContenido;
+        font-size: large;
+        
+        .pulse03:hover,
+        .pulse03:focus {
+        -webkit-animation: pulse03 1s;
+                animation: pulse03 1s;
+        box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+        }
+
+        @-webkit-keyframes pulse03 {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+
+        @keyframes pulse03 {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+        .pulse03 {
+            display: inline-flex;
             margin-top: 50px;
             margin-left: 30px;
+            --color: #1bb2d8;
+            --hover: #1b7f9e;
+            color: $colorSecundario;
+            background-color: #1bb2d8;
+            padding-left: 70px; 
+            padding-right: 70px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-decoration: none; 
         }
     }
 }
@@ -131,32 +219,119 @@ div.container_2{
     div.col-lg-5 {
             background-image: url(../Multimedia/churritos_01.jpg);
             height: 600px;
-            button.btn{
-                padding-left: 70px; 
-                padding-right: 70px;
-                margin-top: 50px;
-                margin-left: 30px;
-            }
+            font-family:$fuenteContenido;
+        font-size: large;
+        
+        .pulse04:hover,
+        .pulse04:focus {
+        -webkit-animation: pulse04 1s;
+                animation: pulse04 1s;
+        box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+        }
+
+        @-webkit-keyframes pulse04 {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+
+        @keyframes pulse04 {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+        .pulse04 {
+            display: inline-flex;
+            margin-top: 50px;
+            margin-left: 30px;
+            --color: #1bb2d8;
+            --hover: #1b7f9e;
+            color: $colorSecundario;
+            background-color: #1bb2d8;
+            padding-left: 70px; 
+            padding-right: 70px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-decoration: none; 
+        }
     }
     div.col-lg-4 {
         background-image: url(../Multimedia/pepitoria_01.jpg);
         height: 600px;
-        button.btn{
-            padding-left: 70px; 
-            padding-right: 70px;
+        font-family:$fuenteContenido;
+        font-size: large;
+        
+        .pulse05:hover,
+        .pulse05:focus {
+        -webkit-animation: pulse05 1s;
+                animation: pulse05 1s;
+        box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+        }
+
+        @-webkit-keyframes pulse05 {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+
+        @keyframes pulse05 {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+        .pulse05 {
+            display: inline-flex;
             margin-top: 50px;
             margin-left: 30px;
+            --color: #1bb2d8;
+            --hover: #1b7f9e;
+            color: $colorSecundario;
+            background-color: #1bb2d8;
+            padding-left: 70px; 
+            padding-right: 70px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-decoration: none; 
         }
     }
 
     div.col-lg-3 {
         background-image: url(../Multimedia/botana_arandano_01.jpg);
         height: 600px;
-        button.btn{
-            padding-left: 70px; 
-            padding-right: 70px;
+        font-family:$fuenteContenido;
+        font-size: large;
+        
+        .pulse06:hover,
+        .pulse06:focus {
+        -webkit-animation: pulse06 1s;
+                animation: pulse06 1s;
+        box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+        }
+
+        @-webkit-keyframes pulse06 {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+
+        @keyframes pulse06 {
+        0% {
+            box-shadow: 0 0 0 0 var(--hover);
+        }
+        }
+        .pulse06 {
+            display: inline-flex;
             margin-top: 50px;
             margin-left: 30px;
+            --color: #1bb2d8;
+            --hover: #1b7f9e;
+            color: $colorSecundario;
+            background-color: #1bb2d8;
+            padding-left: 70px; 
+            padding-right: 70px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-decoration: none; 
         }
     }
 }

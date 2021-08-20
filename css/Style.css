@@ -26,7 +26,7 @@
   font-family: "Poiret One", cursive;
 }
 
-section {
+section#banner {
   background-color: #fff;
   height: 800px;
   background-image: url(../Multimedia/Amaranto.jpg);
@@ -36,13 +36,13 @@ section {
   padding-top: 340px;
 }
 
-section div.tituloBanner {
+section#banner div.tituloBanner {
   text-align: center;
   color: #fff;
   font-family: "Poiret One", cursive;
 }
 
-section h1 {
+section#banner h1 {
   font-size: 80px;
   color: #fff;
 }
@@ -79,71 +79,273 @@ div.container_1 div.col-lg-5 {
   font-size: large;
 }
 
-div.container_1 div.col-lg-5 button.btn {
-  padding-left: 70px;
-  padding-right: 70px;
+div.container_1 div.col-lg-5 .pulse:hover,
+div.container_1 div.col-lg-5 .pulse:focus {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+  -webkit-box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+div.container_1 div.col-lg-5 .pulse {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-top: 50px;
   margin-left: 30px;
+  --color: #1bb2d8;
+  --hover: #1b7f9e;
+  color: #EDF3FA;
+  background-color: #1bb2d8;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
 }
 
 div.container_1 div.col-lg-4 {
   background-image: url(../Multimedia/alegrias_dechocolate_01.jpg);
   height: 600px;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
 }
 
-div.container_1 div.col-lg-4 button.btn {
-  padding-left: 70px;
-  padding-right: 70px;
+div.container_1 div.col-lg-4 .pulse02:hover,
+div.container_1 div.col-lg-4 .pulse02:focus {
+  -webkit-animation: pulse02 1s;
+  animation: pulse02 1s;
+  -webkit-box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse02 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse02 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+div.container_1 div.col-lg-4 .pulse02 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-top: 50px;
   margin-left: 30px;
+  --color: #1bb2d8;
+  --hover: #1b7f9e;
+  color: #EDF3FA;
+  background-color: #1bb2d8;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
 }
 
 div.container_1 div.col-lg-3 {
   background-image: url(../Multimedia/alegria_sabores_01.jpg);
   height: 600px;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
 }
 
-div.container_1 div.col-lg-3 button.btn {
-  padding-left: 70px;
-  padding-right: 70px;
+div.container_1 div.col-lg-3 .pulse03:hover,
+div.container_1 div.col-lg-3 .pulse03:focus {
+  -webkit-animation: pulse03 1s;
+  animation: pulse03 1s;
+  -webkit-box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse03 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse03 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+div.container_1 div.col-lg-3 .pulse03 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-top: 50px;
   margin-left: 30px;
+  --color: #1bb2d8;
+  --hover: #1b7f9e;
+  color: #EDF3FA;
+  background-color: #1bb2d8;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
 }
 
 div.container_2 div.col-lg-5 {
   background-image: url(../Multimedia/churritos_01.jpg);
   height: 600px;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
 }
 
-div.container_2 div.col-lg-5 button.btn {
-  padding-left: 70px;
-  padding-right: 70px;
+div.container_2 div.col-lg-5 .pulse04:hover,
+div.container_2 div.col-lg-5 .pulse04:focus {
+  -webkit-animation: pulse04 1s;
+  animation: pulse04 1s;
+  -webkit-box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse04 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse04 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+div.container_2 div.col-lg-5 .pulse04 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-top: 50px;
   margin-left: 30px;
+  --color: #1bb2d8;
+  --hover: #1b7f9e;
+  color: #EDF3FA;
+  background-color: #1bb2d8;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
 }
 
 div.container_2 div.col-lg-4 {
   background-image: url(../Multimedia/pepitoria_01.jpg);
   height: 600px;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
 }
 
-div.container_2 div.col-lg-4 button.btn {
-  padding-left: 70px;
-  padding-right: 70px;
+div.container_2 div.col-lg-4 .pulse05:hover,
+div.container_2 div.col-lg-4 .pulse05:focus {
+  -webkit-animation: pulse05 1s;
+  animation: pulse05 1s;
+  -webkit-box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse05 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse05 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+div.container_2 div.col-lg-4 .pulse05 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-top: 50px;
   margin-left: 30px;
+  --color: #1bb2d8;
+  --hover: #1b7f9e;
+  color: #EDF3FA;
+  background-color: #1bb2d8;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
 }
 
 div.container_2 div.col-lg-3 {
   background-image: url(../Multimedia/botana_arandano_01.jpg);
   height: 600px;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
 }
 
-div.container_2 div.col-lg-3 button.btn {
-  padding-left: 70px;
-  padding-right: 70px;
+div.container_2 div.col-lg-3 .pulse06:hover,
+div.container_2 div.col-lg-3 .pulse06:focus {
+  -webkit-animation: pulse06 1s;
+  animation: pulse06 1s;
+  -webkit-box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 3em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse06 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse06 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+            box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+div.container_2 div.col-lg-3 .pulse06 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-top: 50px;
   margin-left: 30px;
+  --color: #1bb2d8;
+  --hover: #1b7f9e;
+  color: #EDF3FA;
+  background-color: #1bb2d8;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
 }
 
 div#nuestraHistoria h2 {
@@ -1274,25 +1476,122 @@ div.cta1Contacto {
 .formContacto div.form-group {
   padding-left: 30%;
   padding-right: 30%;
+  padding-bottom: 40px;
   font-family: "Poppins", sans-serif;
 }
 
-.formContacto .rainbow {
-  background-color: #dcb265;
-  border-radius: 4px;
-  color: #fff;
+.formContacto .wrap {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
+}
+
+.formContacto .button {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #cc7c7d;
+  background: -webkit-gradient(linear, left top, right top, from(#cc7c7d), to(#cc7c7d));
+  background: linear-gradient(90deg, #cc7c7d 0%, #cc7c7d 100%);
+  border: none;
+  border-radius: 1000px;
+  -webkit-box-shadow: 12px 12px 24px #cc7c7d;
+          box-shadow: 12px 12px 24px #cc7c7d;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
-  padding: 8px 16px;
-  margin-left: 50%;
-  margin-right: 40%;
-  font-family: "Poppins", sans-serif;
+  outline: none;
+  position: relative;
+  padding: 10px;
 }
 
-.formContacto .rainbowContacto:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(#fa8fb1), color-stop(49%, #f74780), color-stop(80%, #ffc1d5), to(#fc6998));
-  background-image: linear-gradient(90deg, #fa8fb1 0%, #f74780 49%, #ffc1d5 80%, #fc6998 100%);
-  -webkit-animation: slidebg 1s linear infinite;
-          animation: slidebg 1s linear infinite;
+.formContacto button::before {
+  content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #E5677D;
+  -webkit-box-shadow: 0 0 60px #cc7c7d;
+          box-shadow: 0 0 60px #cc7c7d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+}
+
+.formContacto .button:hover, .formContacto .button:focus {
+  color: #313133;
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+
+.formContacto button:hover::before, .formContacto button:focus::before {
+  opacity: 1;
+}
+
+.formContacto button::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #E5677D;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: ring 1.5s infinite;
+          animation: ring 1.5s infinite;
+}
+
+.formContacto button:hover::after, .formContacto button:focus::after {
+  -webkit-animation: none;
+          animation: none;
+  display: none;
+}
+
+@-webkit-keyframes ring {
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+  }
+  100% {
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+  }
+}
+
+@keyframes ring {
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+  }
+  100% {
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+  }
 }
 
 div.container_4 {
@@ -2077,6 +2376,321 @@ img {
     text-align: center;
   }
   .footerBotanas form.formInicio {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+}
+
+.headerBlog div.imagLogo img {
+  width: 200px;
+}
+
+.headerBlog nav {
+  text-decoration: none;
+  color: #fff;
+  font-weight: normal;
+  font-size: x-large;
+  font-family: "Poiret One", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+}
+
+.headerBlog nav div.collapse {
+  background-color: #cc7c7d;
+  z-index: 100;
+}
+
+.headerBlog div.dropdown-menu {
+  font-family: "Poiret One", cursive;
+}
+
+section#blog {
+  background-color: #fff;
+  height: 600px;
+  background-image: url(../Multimedia/amaranto_planta.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 340px;
+}
+
+section#blog div.tBlog {
+  color: #fff;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+}
+
+section#blog h1 {
+  margin-top: -130px;
+  font-size: 80px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.h2Blog {
+  font-size: 80px;
+  font-style: oblique;
+  color: #E5677D;
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 35px;
+}
+
+.primer {
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.amaranto {
+  height: 500px;
+  width: auto;
+}
+
+.primer01 {
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding-bottom: 50px;
+}
+
+.wrap {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
+}
+
+.button {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: white;
+  background: #cc7c7d;
+  background: -webkit-gradient(linear, left top, right top, from(#cc7c7d), to(#cc7c7d));
+  background: linear-gradient(90deg, #cc7c7d 0%, #cc7c7d 100%);
+  border: none;
+  border-radius: 1000px;
+  -webkit-box-shadow: 12px 12px 24px #cc7c7d;
+          box-shadow: 12px 12px 24px #cc7c7d;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+}
+
+button::before {
+  content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #E5677D;
+  -webkit-box-shadow: 0 0 60px #cc7c7d;
+          box-shadow: 0 0 60px #cc7c7d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+}
+
+.button:hover, .button:focus {
+  color: #313133;
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+button::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #E5677D;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: ring 1.5s infinite;
+          animation: ring 1.5s infinite;
+}
+
+button:hover::after, button:focus::after {
+  -webkit-animation: none;
+          animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+  }
+  100% {
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+  }
+}
+
+.footerHome div.container_4 {
+  height: 600px;
+  background-color: #cc7c7d;
+}
+
+.footerHome div.container_4 div.col-lg-4 iframe {
+  padding-top: 100px;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.footerHome div.container_4 div.col-lg-2 {
+  margin-right: -130px;
+  width: 100%;
+}
+
+.footerHome div.container_4 div.col-lg-2 .alfiler {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+.footerHome div.container_4 div.col-lg-2 .alfiler img {
+  width: 30px;
+  height: auto;
+  padding-bottom: 5px;
+  margin-top: 50px;
+}
+
+.footerHome div.container_4 div.col-lg-2 .email {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+.footerHome div.container_4 div.col-lg-2 .email img {
+  width: 30px;
+  height: auto;
+  padding-bottom: 5px;
+  margin-top: 50px;
+}
+
+.footerHome div.container_4 div.col-lg-2 .telefono {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+.footerHome div.container_4 div.col-lg-2 .telefono img {
+  width: 30px;
+  height: auto;
+  padding-bottom: 5px;
+  margin-top: 50px;
+}
+
+.footerHome div.container_4 div.col-lg-2 div.redesSoc {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  margin-top: 40px;
+}
+
+.footerHome div.container_4 div.col-lg-2 div.redesSoc div.facebook
+img {
+  width: 30px;
+  height: 35px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+
+.footerHome div.container_4 div.col-lg-2 div.redesSoc div.instagram
+img {
+  width: 30px;
+  height: 35px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+
+.footerHome div.container_4 div.col-lg-6 form.formInicio {
+  padding-top: 100px;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+.footerHome div.container_4 div.col-lg-6 form.formInicio .rainbow {
+  background-color: #dcb265;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  margin-left: 50%;
+  margin-right: 40%;
+}
+
+.footerHome div.container_4 div.col-lg-6 form.formInicio .rainbowFormHome:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#d15771), color-stop(#fabbbc), color-stop(#cc7c7d), color-stop(#d85e83), color-stop(#f8d5d5), to(#d85e83));
+  background-image: linear-gradient(to right, #d15771, #fabbbc, #cc7c7d, #d85e83, #f8d5d5, #d85e83);
+  -webkit-animation: slidebg 1s linear infinite;
+          animation: slidebg 1s linear infinite;
+}
+
+@media screen and (max-width: 1478px) {
+  .footerHome {
+    background-color: #cc7c7d;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+  }
+  .footerHome form.formInicio {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+}
+
+@media screen and (max-width: 1078px) {
+  .footerHome {
+    background-color: #cc7c7d;
+    height: 1700px;
+    width: 100%;
+    text-align: center;
+  }
+  .footerHome form.formInicio {
     margin-left: 50%;
     margin-right: 50%;
   }
