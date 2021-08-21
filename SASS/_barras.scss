@@ -59,27 +59,89 @@ div.container-fluid{
     .col-md-5{
         img{
             height: 600px;
-            width: 100%;
+            width: 600px;
         }
     }
+
+    @media screen and (max-width: 1390px) {
+        div.col-md-5 img {
+            height: 550px;
+            width: 450px;
+        }
+    } 
+    @media screen and (max-width: 866px) {
+        div.col-md-5 img {
+        height: 250px;
+        width: 100px;
+        }
+    } 
+
+    @media screen and (max-width: 788px) {
+        div.col-md-5 img {
+            height: 300px;
+            width: 300px;
+        }
+    }  
 
    .col-md-4{  
        img{
     height: 600px;
-    width: 100%;
+    width: 600px;
          }
     }
+
+    @media screen and (max-width: 1390px) {
+        div.col-md-4 img {
+            height: 550px;
+            width: 450px;
+        }
+    } 
+    @media screen and (max-width: 866px) {
+        div.col-md-4 img {
+            height: 300px;
+            width: 200px;
+        }
+    } 
+
+    @media screen and (max-width: 788px) {
+        div.col-md-4 img {
+            height: 350px;
+            width: 350px;
+        }
+    } 
 
     .col-md-3{  
         img{
      height: 600px;
-     width: 100%;
+     width: 600px;
           }
      }
 
+     @media screen and (max-width: 1390px) {
+        div.col-md-3 img {
+        height: 450px;
+        width: 350px;
+        }
+    } 
+    @media screen and (max-width: 866px) {
+        div.col-md-3 img {
+        height: 300px;
+        width: 200px;
+        }
+    } 
+
+    @media screen and (max-width: 788px) {
+        div.col-md-3 img {
+            height: 350px;
+            width: 350px;
+        }
+    } 
+
 }
 
-    div.container_01 {
+
+
+div.container_01 {
         padding-bottom: 50px;
             div.col-md-5 {
                 padding-top: 40px;
@@ -88,6 +150,7 @@ div.container-fluid{
                 text-align: center;
 
             }
+            
 
             div.col-md-4 {
                 padding-top: 40px;
@@ -103,9 +166,10 @@ div.container-fluid{
                 font-family: $fuenteContenido;
                 text-align: center;
 
-    }
-
+            }
 }
+
+
 
 div.container-fluid_02{
 
@@ -116,12 +180,52 @@ div.container-fluid_02{
         }
     }
 
+    @media screen and (max-width: 1390px) {
+        div.col-md-5 img {
+        height: 350px;
+        width: 250px;
+        }
+    } 
+    @media screen and (max-width: 866px) {
+        div.col-md-5 img {
+        height: 250px;
+        width: 100px;
+        }
+    } 
+
+    @media screen and (max-width: 788px) {
+        div.col-md-5 img {
+            height: 300px;
+            width: 300px;
+        }
+    } 
+
    .col-md-4{  
        img{
     height: 600px;
     width: 100%;
          }
     }
+
+    @media screen and (max-width: 1390px) {
+        div.col-md-4 img {
+        height: 350px;
+        width: 250px;
+        }
+    } 
+    @media screen and (max-width: 866px) {
+        div.col-md-4 img {
+        height: 250px;
+        width: 100px;
+        }
+    } 
+
+    @media screen and (max-width: 788px) {
+        div.col-md-4 img {
+            height: 300px;
+            width: 300px;
+        }
+    } 
 
     .col-md-3{  
         img{
@@ -130,7 +234,29 @@ div.container-fluid_02{
           }
      }
 
+     @media screen and (max-width: 1390px) {
+        div.col-md-3 img {
+        height: 350px;
+        width: 250px;
+        }
+    } 
+    @media screen and (max-width: 866px) {
+        div.col-md-3 img {
+        height: 250px;
+        width: 100px;
+        }
+    } 
+
+    @media screen and (max-width: 788px) {
+        div.col-md-3 img {
+            height: 300px;
+            width: 300px;
+        }
+    }  
+
 }
+
+
 
 
 div.container_02 {
@@ -178,7 +304,8 @@ div.cta1Barras {
 }
 
 .formBarras{
-    margin-bottom: 20px;
+    margin-bottom: 80px;
+    
 
     div.form-group {
         padding-left: 30%;

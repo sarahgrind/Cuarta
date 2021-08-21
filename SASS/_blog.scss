@@ -98,10 +98,10 @@ section#blog {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 65px;
   }
   
-  .button {
+  .button1 {
     min-width: 300px;
     min-height: 60px;
     font-family: $fuenteContenido;
@@ -122,7 +122,7 @@ section#blog {
     padding: 10px;
     }
   
-  button::before {
+  .button1:before {
   content: '';
     border-radius: 1000px;
     min-width: calc(300px + 12px);
@@ -137,16 +137,16 @@ section#blog {
     transition: all .3s ease-in-out 0s;
   }
   
-  .button:hover, .button:focus {
+  .button1:hover, .button1:focus {
     color: #313133;
     transform: translateY(-6px);
   }
   
-  button:hover::before, button:focus::before {
+  .button1:hover::before, .button1:focus::before {
     opacity: 1;
   }
   
-  button::after {
+  .button1:after {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
@@ -159,7 +159,7 @@ section#blog {
     animation: ring 1.5s infinite;
   }
   
-  button:hover::after, button:focus::after {
+  .button1:hover::after, .button1:focus::after {
     animation: none;
     display: none;
   }

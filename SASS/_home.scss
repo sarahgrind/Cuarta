@@ -93,7 +93,17 @@ div.container_1 {
         font-family:$fuenteContenido;
         font-size: large;
 
+        @media screen and (max-width: 1390px) {
+            .pulse {
+            margin-top: 20px;
+            margin-left: 10px;
+            padding-left: 40px; 
+            padding-right: 30px;
+            font-size: medium;
+            }
+        }
 
+        
        
         .pulse:hover,
         .pulse:focus {
@@ -121,24 +131,53 @@ div.container_1 {
             --hover: #1b7f9e;
             color: $colorSecundario;
             background-color: #1bb2d8;
-            padding-left: 70px; 
-            padding-right: 70px;
+            padding-left: 90px; 
+            padding-right: 90px;
             padding-top: 10px;
             padding-bottom: 10px;
             text-decoration: none; 
          
-        }
-            
-            
+        } 
         
     }
 
+    @media screen and (max-width: 1390px) {
+        div.col-lg-5 {
+        height: 450px;
+        width: auto;
+        }
+    } 
+    @media screen and (max-width: 866px) {
+        div.col-lg-5 {
+        height: 450px;
+        width: 450px;
+        }
+    } 
+
+    @media screen and (max-width: 788px) {
+        div.col-lg-5 {
+            height: 450px;
+            width: 650px;
+        }
+    } 
+
+
 
     div.col-lg-4 {
-        background-image: url(../Multimedia/alegrias_dechocolate_01.jpg);
+        background-image: url(../Multimedia/alegrias_dechocolate_01.png);
         height: 600px;
         font-family:$fuenteContenido;
         font-size: large;
+
+        @media screen and (max-width: 1390px) {
+            .pulse02 {
+            margin-top: 20px;
+            margin-left: 10px;
+            padding-left: 20px; 
+            padding-right: 20px;
+            font-size: medium;
+            }
+        }
 
         .pulse02:hover,
         .pulse02:focus {
@@ -166,20 +205,51 @@ div.container_1 {
             --hover: #1b7f9e;
             color: $colorSecundario;
             background-color: #1bb2d8;
-            padding-left: 70px; 
-            padding-right: 70px;
+            padding-left: 40px; 
+            padding-right: 30px;
             padding-top: 10px;
             padding-bottom: 10px;
             text-decoration: none; 
         }
 
     }
+
+    @media screen and (max-width: 1390px) {
+        div.col-lg-4 {
+        height: 450px;
+        width: auto;
+        }
+    }  
+    @media screen and (max-width: 866px) {
+        div.col-lg-4 {
+        height: 450px;
+        width: 450px;
+        }
+    } 
+
+    @media screen and (max-width: 788px) {
+        div.col-lg-4 {
+            height: 450px;
+            width: 650px;
+        }
+    } 
+
     div.col-lg-3 {
         background-image: url(../Multimedia/alegria_sabores_01.jpg);
         height: 600px;
         font-family:$fuenteContenido;
         font-size: large;
         
+        @media screen and (max-width: 1390px) {
+            .pulse03 {
+            margin-top: 20px;
+            margin-left: 10px;
+            padding-left: 20px; 
+            padding-right: 20px;
+            font-size: medium;
+            }
+        }
+
         .pulse03:hover,
         .pulse03:focus {
         -webkit-animation: pulse03 1s;
@@ -206,21 +276,65 @@ div.container_1 {
             --hover: #1b7f9e;
             color: $colorSecundario;
             background-color: #1bb2d8;
-            padding-left: 70px; 
-            padding-right: 70px;
+            padding-left: 40px; 
+            padding-right: 30px;
             padding-top: 10px;
             padding-bottom: 10px;
             text-decoration: none; 
         }
     }
+
+    @media screen and (max-width: 1390px) {
+        div.col-lg-3 {
+        height: 450px;
+        width: auto;
+        }
+    }  
+    @media screen and (max-width: 866px) {
+        div.col-lg-3 {
+        height: 450px;
+        width: 450px;
+        }
+    } 
+
+    @media screen and (max-width: 788px) {
+        div.col-lg-3 {
+        height: 450px;
+        width: 650px;
+        }
+    } 
+
 }
+
+@media screen and (max-width: 837px) {
+    div.container_1{
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+} 
 
 div.container_2{
     div.col-lg-5 {
-            background-image: url(../Multimedia/churritos_01.jpg);
-            height: 600px;
-            font-family:$fuenteContenido;
+        background-image: url(../Multimedia/churritos_amaranto_01.jpeg);
+        height: 600px;
+        font-family:$fuenteContenido;
         font-size: large;
+
+        @media screen and (max-width: 1390px) {
+            div.col-lg-5 {
+            height: 400px;
+            width: auto;
+            }
+            .pulse04 {
+            margin-top: 40px;
+            margin-left: 30px;
+            padding-left: 70px; 
+            padding-right: 70px;
+            font-size: medium;
+            }
+        }
+    
+    }
         
         .pulse04:hover,
         .pulse04:focus {
@@ -248,18 +362,53 @@ div.container_2{
             --hover: #1b7f9e;
             color: $colorSecundario;
             background-color: #1bb2d8;
-            padding-left: 70px; 
-            padding-right: 70px;
+            padding-left: 80px; 
+            padding-right: 80px;
             padding-top: 10px;
             padding-bottom: 10px;
             text-decoration: none; 
         }
-    }
+    
+        @media screen and (max-width: 1390px) {
+            div.col-lg-5 {
+            height: 450px;
+            width: auto;
+            }
+        } 
+        @media screen and (max-width: 866px) {
+            div.col-lg-5 {
+            height: 450px;
+            width: 450px;
+            }
+        } 
+    
+        @media screen and (max-width: 788px) {
+            div.col-lg-5 {
+                height: 450px;
+                width: 650px;
+            }
+        }   
+
+
     div.col-lg-4 {
         background-image: url(../Multimedia/pepitoria_01.jpg);
         height: 600px;
         font-family:$fuenteContenido;
         font-size: large;
+
+        @media screen and (max-width: 1390px) {
+            div.col-lg-4 {
+            height: 400px;
+            width: auto;
+            }
+            .pulse05 {
+            margin-top: 20px;
+            margin-left: 10px;
+            padding-left: 20px; 
+            padding-right: 20px;
+            font-size: medium;
+            }
+        }
         
         .pulse05:hover,
         .pulse05:focus {
@@ -287,20 +436,51 @@ div.container_2{
             --hover: #1b7f9e;
             color: $colorSecundario;
             background-color: #1bb2d8;
-            padding-left: 70px; 
-            padding-right: 70px;
+            padding-left: 80px; 
+            padding-right: 80px;
             padding-top: 10px;
             padding-bottom: 10px;
             text-decoration: none; 
         }
     }
 
+    @media screen and (max-width: 1390px) {
+        div.col-lg-4 {
+        height: 450px;
+        width: auto;
+        }
+    } 
+    @media screen and (max-width: 866px) {
+        div.col-lg-4 {
+        height: 450px;
+        width: 450px;
+        }
+    } 
+
+    @media screen and (max-width: 788px) {
+        div.col-lg-4 {
+            height: 450px;
+            width: 650px;
+        }
+    } 
+
+
     div.col-lg-3 {
-        background-image: url(../Multimedia/botana_arandano_01.jpg);
+        background-image: url(../Multimedia/botana_arandano_01.png);
         height: 600px;
         font-family:$fuenteContenido;
         font-size: large;
         
+        @media screen and (max-width: 1390px) {
+            .pulse06 {
+            margin-top: 20px;
+            margin-left: 10px;
+            padding-left: 20px; 
+            padding-right: 20px;
+            font-size: medium;
+            }
+        }
+
         .pulse06:hover,
         .pulse06:focus {
         -webkit-animation: pulse06 1s;
@@ -327,14 +507,43 @@ div.container_2{
             --hover: #1b7f9e;
             color: $colorSecundario;
             background-color: #1bb2d8;
-            padding-left: 70px; 
-            padding-right: 70px;
+            padding-left: 25px; 
+            padding-right: 25px;
             padding-top: 10px;
             padding-bottom: 10px;
             text-decoration: none; 
         }
     }
+
+    @media screen and (max-width: 1390px) {
+        div.col-lg-3 {
+        height: 450px;
+        width: auto;
+        }
+    } 
+    @media screen and (max-width: 866px) {
+        div.col-lg-3 {
+        height: 450px;
+        width: 450px;
+        }
+    } 
+
+    @media screen and (max-width: 788px) {
+        div.col-lg-3 {
+            height: 450px;
+            width: 650px;
+        }
+    } 
+
+
 }
+
+@media screen and (max-width: 837px) {
+    div.container_2{
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+} 
 
 div#nuestraHistoria {
 
@@ -357,12 +566,13 @@ div.container_3 {
 
 
     div.col-lg-5 {
-        padding-left: 120px;
+        padding-left: 50px;
         display: flex;
     
         iframe{
             width: 100%;
             height:450px;
+            border: 0px;
         }
        
     }
@@ -375,6 +585,19 @@ div.container_3 {
 
     
     }
+
+    @media screen and (min-width: 200px) {
+        div.col-lg-7 {
+           padding-top: 40px;
+        }
+   }
+   
+   @media screen and (max-width: 1000px) {
+        div.col-lg-5 {
+       padding-left: 20px;
+        }
+    }
+
     @media screen and (max-width: 1424px) {
         div.container_3 {
             height: 900px;
